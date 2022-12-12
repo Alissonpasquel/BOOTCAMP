@@ -1,0 +1,55 @@
+body{
+
+    font-family: monospace;
+    background-image: url(https://www.todofondos.net/wp-content/uploads/1920x1297-Fondo-de-pantalla-tu-nombre-cielo-estrellas-kimi-no-na-wa-luces.png);
+
+}
+
+ul{
+
+    outline:1px blueviolet;
+    outline-style: solid;
+    list-style: none;
+    margin:0;
+    padding-left:0;
+    width: 180px;
+    line-height: 25px;
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    padding-left:8px;
+    display: block;
+    
+}
+
+a:hover{
+
+    background-color: pink;
+
+}
+
+a:active{
+
+    background-color: blueviolet;
+    color:mediumorchid;
+}
+
+ul li:first-child{
+
+    background-color: indigo
+}
+
+
+ul li:first-child a{
+
+    color:white
+}
+
+ul li:first-child a.hover{
+
+    color:black;
+
+}
